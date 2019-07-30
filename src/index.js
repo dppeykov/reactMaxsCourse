@@ -1,14 +1,8 @@
 import React from "react";
 import ReactDOM from "react-dom";
 
-import "./index.css";
+import App from "./componenets/App/App";
 
-function App() {
-  return (
-    <div className="App">
-      <h1>---</h1>
-    </div>
-  );
-}
+import "./index.css";
 
 ReactDOM.render(<App />, document.getElementById("root"));
